@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Intern - Application Form</title>
+  	<!-- Google font links  -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+	<!-- Bootstrap css link -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!-- font-awesome  -->
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+	<!-- Flaticon Css -->
+	<link rel="stylesheet" href="./font/flaticon.css">
+	<!-- animated css  -->
+	<link rel="stylesheet" href="./css/animate.css">
+	<!-- Owl Carosul  -->
+	<link rel="stylesheet" href="./css/owl.carousel.css">
+	<link rel="stylesheet" href="./css/owl.transitions.css">
+	<!-- slick slider -->
+	<link rel="stylesheet" href="./css/slick-theme.css">
+	<link rel="stylesheet" href="./css/slick.css">
+	<!-- venobox light box -->
+	<link rel="stylesheet" href="./css/venobox.css">
+	
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- mediaquery css -->
+	<link rel="stylesheet" href="./css/responsive.css">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    /* Form Styles */
+    form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+   .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #555;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+      grid-column: 1 / 3;
+      margin-top: 20px;
+      background-color: #ff8000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #ef9439;
+    }
+
+    /* Sample Certificate Styles */
+   .sample-certificate {
+      grid-column: 1 / 3;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+   .certificate-image {
+      max-width: 100%;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 4px;
+    }
+
+    /* Adjustments for smaller screens */
+    @media (max-width: 768px) {
+      form {
+        grid-template-columns: 1fr;
+      }
+
+     .sample-certificate {
+        grid-column: 1;
+      }
+
+      button[type="submit"] {
+        grid-column: 1;
+      }
+
+      /* Align specified fields in one column */
+      .form-group:nth-child(2),
+      .form-group:nth-child(4),
+      .form-group:nth-child(6),
+      .form-group:nth-child(8) {
+        grid-column: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	<!-- END Preloader  -->
+
+	<!-- header part start -->
+	<nav class="navbar navbar-expand-lg " style="background-color: #70665c;">
+		<div class="container">
+			<a class="main-logo" href="#">
+				Future<span style="color: #ff8000;">Intern</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="./index.html">Home</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  <pre>
+
+
+    
+  </pre>
+  <main>
+    <h2>Application Form</h2>
+    <form id="application">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required>
+      </div>
+
+      <div class="form-group">
+        <label for="college">College:</label>
+        <input type="text" id="college" name="college" required>
+      </div>
+
+      <div class="form-group">
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch" required>
+      </div>
+
+      <div class="form-group">
+        <label for="year">Year:</label>
+        <select id="year" name="year" required>
+          <option value="">Select Year</option>
+          <option value="1st Year">1st Year</option>
+          <option value="2nd Year">2nd Year</option>
+          <option value="3rd Year">3rd Year</option>
+          <option value="4th Year">4th Year</option>
+          <option value="Passed Out">Passed Out</option>
+          <option value="Other...">Other...</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="skills">Skills:</label>
+        <textarea id="skills" name="skills" placeholder="Enter your skills" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="telegram">Joined Telegram Group:</label>
+        <input type="radio" id="telegram-yes" name="telegram" value="Yes" >
+        <label for="telegram-yes">Yes</label>
+      </div>
+
+      <div class="form-group">
+        <label for="year">Domain:</label>
+        <select id="year" name="domain" required>
+          <option value="">Select Domain</option>
+          <option value="App Development">App Development</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Java Development">Java Development</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+          <option value="Block Chain Technology/Web 3">Block Chain Technology/Web 3</option>
+          <option value="Artificial Intelligence">Artificial Intelligence</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="certificate">Sample Certificate:</label>
+        <div class="sample-certificate">
+          <img src="./images/certificate.jpg" alt="Sample Certificate" class="certificate-image">
+        </div>
+      </div>
+
+      <button type="submit">Apply</button>
+    </form>
+  </main>
+  <footer id="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<p>&copy; 2019. All rights reserved by EnvatoPrime. - <a href="#">Privacy Policy</a> - <a href="#">Terms &
+							Conditions</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+  <script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbzxEj6h-t24DhE-wKzAXtnrem7i34LG-Cgr3pm8OxBQaEPyUahxMS8iMMbemdgGAY6zrA/exec' //need changes
+		const form = document.forms['application']
+	  
+		form.addEventListener('submit', e => {
+		  e.preventDefault()
+		  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => alert("Thank you! your form is submitted successfully." ))
+			.then(() => {  window.location.reload(); })
+			.catch(error => console.error('Error!', error.message))
+		})
+	  </script>
+</body>
+</html>
